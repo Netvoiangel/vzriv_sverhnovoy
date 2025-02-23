@@ -1,6 +1,6 @@
 # Взрыв сверхновой
 ## Состав участников
-1. Фатахов Тимур: ведущий доски, backend & frontend developer
+1. Фатахов Тимур: ведущий доски, backend & devops developer
 2. Мелко Тимофей: разработчик, backend developer
 3. Крехов Данил: разработчик, frontend developer
 4. Ляпустин Егор: разработчик, backend developer
