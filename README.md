@@ -1,3 +1,20 @@
+# Student-Teacher Service
+Сервис для взаимодействия учеников с преподавателями
+# Как запустить
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+cd frontend
+npm install
+cd ..
+uvicorn app.main:app
+cd frontend
+npm run dev
+# Копирование репозитория
+git clone https://github.com/Netvoiangel/vzriv_sverhnovoy.git
+# Документация
+в разработке
+
 # Взрыв сверхновой
 ## Состав участников
 1. Фатахов Тимур: ведущий доски, backend & devops developer
