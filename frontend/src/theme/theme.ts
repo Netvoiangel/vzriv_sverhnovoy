@@ -54,6 +54,21 @@ const theme = createTheme({
     body2: { fontSize: '0.875rem', fontWeight: 300 },
     button: { textTransform: 'none', fontWeight: 600 },
   },
+  breakpoints: {
+    values: {
+      xs: 0,         // Extra small devices (phones)
+      sm: 480,       // Small devices (large phones)
+      md: 768,       // Medium devices (tablets)
+      lg: 992,       // Large devices (desktops)
+      xl: 1200,      // Extra large devices (large desktops)
+      xxl: 1600,     // Ultra wide screens
+      mobile: 0,     // Alternative naming for mobile
+      tablet: 600,
+      desktop: 900,
+      largeDesktop: 1200,
+      ultraWide: 1600,
+    },
+  },
 });
 
 export default theme;

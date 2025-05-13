@@ -1,7 +1,11 @@
 import React from 'react';
 import { Typography, Button, Container, Stack } from '@mui/material';
+import { useBreakpoints } from './hooks/useBreakpoints';
 
 function App() {
+
+  const { isMobile, isTablet, isDesktop, isLargeDesktop } = useBreakpoints();
+
   return (
     <Container style={{ marginTop: '2rem' }}>
       <Stack spacing={3}>
@@ -12,7 +16,14 @@ function App() {
         <Typography variant="h4" color="warning">Heading 4</Typography>
         <Typography variant="h5" color="success">Heading 5</Typography>
         <Typography variant="h6" color="textPrimary">Heading 6</Typography>
-
+        <Typography variant="h1">
+          {isMobile && 'Mobile'}
+          {isTablet && 'Tablet'}
+          {isSmallDesktop && 'Small Desktop'}
+          {isDesktop && 'Desktop'}
+          {isLargeDesktop && 'Large Desktop'}
+          {isUltraWide && 'Ultra Wide'}
+        </Typography>
         {/* Основной текст */}
         <Typography variant="body1">
           This is body1 text. It should be larger and bolder than body2.
