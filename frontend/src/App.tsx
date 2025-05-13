@@ -4,7 +4,7 @@ import { useBreakpoints } from './hooks/useBreakpoints';
 
 function App() {
 
-  const { isMobile, isTablet, isDesktop, isLargeDesktop } = useBreakpoints();
+  const { isMobile, isTablet, isSmallDesktop, isDesktop, isLargeDesktop, isUltraWide } = useBreakpoints();
 
   return (
     <Container style={{ marginTop: '2rem' }}>
