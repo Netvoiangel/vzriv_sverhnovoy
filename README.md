@@ -23,6 +23,7 @@ git clone https://github.com/Netvoiangel/vzriv_sverhnovoy.git
 4. Ляпустин Егор: разработчик, backend developer
 5. Буслама Анис: разработчик, frontend developer
 6. Жохов Олег: разработчик, frontend developer
+README
 
 ## Цели проекта
 Создать Сервис для взаимодействия учеников и преподавателей - расписание занятий,
