@@ -1,0 +1,20 @@
+[project]
+name = "api-course-project"
+version = "0.0.1"
+description = "ST Service - platform for communication beetween teachers and students"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.15.2",
+    "asyncpg>=0.30.0",
+    "bcrypt==4.0.1",
+    "fastapi[all]>=0.115.12",
+    "loguru==0.7.3",
+    "passlib[bcrypt]>=1.7.4",
+    "psycopg2-binary==2.9.10",
+    "pydantic>=2.11.1",
+    "pydantic-core>=2.33.0",
+    "python-jose>=3.4.0",
+    "sqlalchemy>=2.0.40",
+    "uvicorn>=0.34.0",
+]
